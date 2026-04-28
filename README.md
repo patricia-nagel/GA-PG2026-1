@@ -3,7 +3,9 @@
 Leitor e visualizador de cenas 3D implementado com OpenGL 3.3 Core Profile, GLFW, GLAD e GLM.
 
 ## Integrantes
-- (Insira o nome completo aqui)
+- Cássio Braga
+- Gabriel Walber
+- Patrícia Nagel
 
 ---
 
