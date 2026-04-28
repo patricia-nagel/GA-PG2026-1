@@ -52,24 +52,6 @@ target_include_directories(GrauA PRIVATE glad/include .)
 target_link_libraries(GrauA OpenGL::GL glfw glm::glm)
 ```
 
-### Compilação manual (Linux/macOS)
-
-```bash
-g++ -std=c++17 main.cpp Camera.cpp glad/src/glad.c \
-    -I glad/include -I . \
-    -lglfw -lGL -ldl -o visualizador
-./visualizador
-```
-
-### Windows (MinGW)
-
-```bash
-g++ -std=c++17 main.cpp Camera.cpp glad/src/glad.c \
-    -I glad/include -I . \
-    -lglfw3 -lopengl32 -lgdi32 -o visualizador.exe
-visualizador.exe
-```
-
 ---
 
 ## Configurando os Modelos
